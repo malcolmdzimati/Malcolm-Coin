@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>malcolmcoin</name>
+    </assembly>
+    <members>
+        <member name="T:malcolmcoin.Controllers.SampleController">
+            <inheritdoc />
+        </member>
+        <member name="M:malcolmcoin.Controllers.SampleController.GetSamples(System.String)">
+            <summary>
+            Get all samples for the account number
+            </summary>
+            <param name="accountNumber"/>
+        </member>
+        <member name="M:malcolmcoin.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>
